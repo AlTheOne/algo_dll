@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "algo_dll"
+version = "0.0.1"
+description = "Doubly Linked List"
+authors = ["AlTheOne <altheone.social@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+
+# tests...
+pytest = "^8.0.2"
+pytest-cov = "^4.1.0"
+
+# lint...
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+mypy = "^1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
