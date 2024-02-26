@@ -8,6 +8,10 @@ from algo_dll.exceptions import (
 from algo_dll.manager_by_id_mixin import ManagerByIdMixin
 from algo_dll.nodes import Node
 
+__all__ = [
+    'DllManager',
+]
+
 
 class DllManager(ManagerByIdMixin):
 
