@@ -4,6 +4,7 @@ version = "0.0.1"
 description = "Doubly Linked List"
 authors = ["AlTheOne <altheone.social@gmail.com>"]
 readme = "README.md"
+packages = [{include = "algo_dll"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

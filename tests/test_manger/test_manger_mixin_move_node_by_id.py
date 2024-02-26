@@ -1,8 +1,8 @@
 import pytest
 
-from src.exceptions import InvalidNextIdException
-from src.manager import DllManager
-from src.nodes import Node
+from algo_dll.exceptions import InvalidNextIdException
+from algo_dll.manager import DllManager
+from algo_dll.nodes import Node
 
 
 class TestDllManagerMixinMoveNodeById:

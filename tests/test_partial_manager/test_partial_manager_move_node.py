@@ -1,5 +1,5 @@
-from src.nodes import Node
-from src.partial_manager import PartialManager
+from algo_dll.nodes import Node
+from algo_dll.partial_manager import PartialManager
 
 
 class TestPartialManagerMoveNode:

@@ -1,7 +1,7 @@
 from typing import Any, Callable
 
-from src.exceptions import NodeDoesNotExistException
-from src.nodes import Node
+from algo_dll.exceptions import NodeDoesNotExistException
+from algo_dll.nodes import Node
 
 
 class ManagerByIdMixin:

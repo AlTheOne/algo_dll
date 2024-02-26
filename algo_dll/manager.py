@@ -1,12 +1,12 @@
 from typing import Any
 
-from src.exceptions import (
+from algo_dll.exceptions import (
     InvalidNextIdException,
     NodeAlreadyExistException,
     NodeDoesNotExistException,
 )
-from src.manager_by_id_mixin import ManagerByIdMixin
-from src.nodes import Node
+from algo_dll.manager_by_id_mixin import ManagerByIdMixin
+from algo_dll.nodes import Node
 
 
 class DllManager(ManagerByIdMixin):

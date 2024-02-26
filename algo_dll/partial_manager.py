@@ -1,7 +1,7 @@
 from typing import Any
 
-from src.exceptions import InvalidNextIdException, NodeAlreadyExistException
-from src.nodes import Node
+from algo_dll.exceptions import InvalidNextIdException, NodeAlreadyExistException
+from algo_dll.nodes import Node
 
 
 class PartialManager:

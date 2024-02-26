@@ -5,9 +5,9 @@
 args = $(filter-out $@,$(MAKECMDGOALS))
 
 # Command shortcuts
-mypy = poetry run mypy ./src
-flake = poetry run flake8 ./src ./tests
-isort = poetry run isort src tests
+mypy = poetry run mypy ./algo_dll
+flake = poetry run flake8 ./algo_dll ./tests
+isort = poetry run isort algo_dll tests
 pytest = poetry run pytest
 
 
